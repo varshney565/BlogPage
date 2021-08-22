@@ -1,0 +1,233 @@
+body {
+	margin-bottom: 8px;
+	margin-top: 50px;
+    margin-left: 60px;
+    margin-right: 20px;
+    font-family: serif;
+}
+
+img{
+	width: 100%;
+}
+/*Header*/
+
+#link a{
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 1.8rem;
+	font-family: system-ui;
+	color: black;
+	line-height: 1rem;
+}
+#link a:hover{
+	color: pink;
+}
+
+#header-image{
+	max-width: 200px;
+}
+
+#blog-image{
+	margin-top: 50px;
+}
+
+/*Main*/
+
+#views img{
+	width: 15px;
+	margin-bottom: -2px;
+	margin-left: 2px;
+}
+#views p{
+	display: block;
+}
+
+#list1 > li{
+	font-weight: 800;
+	margin-top: 20px;
+
+}
+
+#list1 ul  li a{
+
+	text-decoration: none;
+}
+#list1 ul li a:hover{
+	color: pink;
+}
+
+
+/*Main---------------------Author info*/
+
+.logo{
+	display: inline-block;
+	width :30%;
+	vertical-align: top;
+}
+
+/*Main--------------------Article*/
+.asdf{
+	display: inline-block;
+	width: 69%;
+	font-size: 1rem;
+}
+
+main{
+	width: 70%;
+	display: inline-block;
+	
+}
+
+
+h1.Five{
+	font-weight: 900;
+	font-size: 2.8rem;
+	font-family: serif;
+}
+
+/*Aside Section*/
+
+aside{
+	margin-left: 5%;
+	width : 24%;
+	display: inline-block;	
+	vertical-align: top;
+}
+
+label{
+	color: #3c5349;
+	display: block;
+	padding-bottom: 5px;
+}
+
+.sec{
+	margin-top: 60px;
+	border-top: 4px solid black;
+}
+
+section a{
+	text-decoration: none;
+	font-size: 1.1rem;
+}
+
+.sec a{
+	color: orangered;
+}
+.sec a:hover{
+	color: black;
+}
+input,
+textarea {
+    margin-bottom: 15px;
+    padding: 4px 10px;
+    background-color: #f7f7f7;
+    border: 1px solid #d1d1d1;
+    border-radius: 2px;
+    color: #686868;
+    width: 90%;
+    display: block;
+    line-height: 1.6;
+    font-size: 1.05rem;
+    color: #000000;
+}
+button[type="submit"]{
+	font-size: 0.9rem;
+	display: block;
+	margin-top: 10px;
+	background-color: black;
+	color: white;
+	padding: 10px;
+	border: 1px solid black;
+	border-radius: 4px;
+}
+button[type="submit"]:hover{
+	background-color: orangered;
+}
+
+form{
+	margin-top: 30px;
+}
+
+#Search input{
+	width: 75%;
+	display: inline;
+}
+#Search img{
+	width: 18px;
+	vertical-align: middle;
+}
+#Search button[type="submit"]{
+	width: 12%;
+	display: inline;
+	border-radius: 0 4px 4px 0;
+	border: none;
+}
+.widget-title{
+	text-transform: uppercase;
+	font-weight: 1.2rem;
+	line-height: 1.6;
+
+}
+
+
+/*Social Icons*/
+#social{
+	position: fixed;
+	top: 25%;
+	left: 0px;
+}
+
+#social div{
+	box-sizing: border-box;
+	padding: 11px 1px 0px 0px;
+}
+
+#fb{
+	background-color: #0b0ba1;
+	width: 40px;
+	height: 40px;
+}
+#in{
+	background-color: blue;
+	width: 40px;
+	height: 40px;
+	box-sizing: border-box;
+	padding: 10px;
+}
+#twi{
+	background-color: skyblue;
+	width: 40px;
+	height: 40px;
+	box-sizing: border-box;
+	padding: 10px;
+}
+#g{
+	width: 40px;
+	height: 40px;
+	background-color: darkorange;
+	box-sizing: border-box;
+	padding: 10px;
+}
+#w-app{
+	width: 40px;
+	height: 40px;
+	background-color: #3dd03d;
+	box-sizing: border-box;
+	padding: 10px;
+}
+#mail{
+	width: 40px;
+	height: 40px;
+	background-color: darkorange;
+	box-sizing: border-box;
+	padding: 10px;
+}
+#social i{
+	color: white;
+	text-align: center;
+	font-size: 18px;
+	display: block;
+}
+#fb:hover{
+	background-color: black;
+}
